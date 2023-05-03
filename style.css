@@ -1,0 +1,82 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:80vh;
+    background-color: #c2c0bd;
+}
+
+.container{
+    text-align: center;
+    border-radius: 8px;
+    background-color: #eeebeb;
+    width: 40%;
+    padding: 1px 10px 20px;
+    box-shadow: 10px 10px 30px #272626,
+                -5px -5px 60px #ffff;
+}
+
+.heading{
+    border-radius: 8px;
+    background-color: #8a9b9e;
+    margin:10px 23%;
+    box-shadow: 5px 5px 15px #272626,
+                -2px -2px 30px #ffff;
+}
+
+.quote{
+    border-radius: 8px;
+    background-color: #c2c5c4;
+    margin:10px 10px;
+    padding: 2px;
+    box-shadow: 5px 5px 15px #272626,
+                -2px -2px 30px #ffff;
+}
+
+#content{
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#author{
+    font-size: 20px;
+    font-style: italic;
+    line-height: 1.5;
+}
+
+.button-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 10px 10px;
+}
+
+.new-tweet-btn {
+    width: 150px;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    background: darkmagenta;
+    color: white;
+    border-radius: 8px;
+    transition: transform 300ms;
+}
+
+.new-tweet-btn:hover {
+    transform: scale(0.9);
+}
+
+.twitter-share-button{
+    color: #0c5de9;
+    border:none;
+    border-radius: 50%;
+    background-color: #eeebeb;
+    cursor: pointer;
+}
+
+
